@@ -1,0 +1,227 @@
+p{font-size:16px;}
+
+h2{
+    color: #bddadf;
+    font-size: 2.8rem;
+}
+
+h3{
+    color: #fff;
+    font-size:1.5rem
+}
+
+#primeraSeccion{
+    background-color: #05263a;
+    height: 100vh;
+    }
+
+    #primeraSeccion h1{
+        color:#bddadf;
+        }
+
+    #segundaSeccion{
+        background-color: #bddadf;
+        height: 100vh;
+        }
+
+        #segundaSeccion h2{
+            color: #05263a;
+        }
+
+        
+
+#primeraSeccion p{
+    color: #fff;
+}
+
+#primeraSeccion ul, #primeraSeccion li{
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#terceraseccion{
+    background-color: #05263a;
+    height: 50vh;
+    color:#fff;
+    text-align: center;
+}
+
+#terceraseccion h3{
+    color:#fff;
+    text-align: center;
+}
+
+#cuartaSeccion{
+    background-color: #bddadf;
+    height: 110vh;
+    }
+
+    #cuartaSeccion p, h2, h3{
+        color: #05263a;
+    }
+
+    #quintaSeccion{
+        background-color: #05263a;
+        height: 90vh;
+        color:#fff;
+    }
+
+    #quintaSeccion h2{
+        color:#fff;
+    }
+
+    #sextaSeccion{
+        background-color: #bddadf;
+        text-align: center;
+        color: #002e77;
+        }
+
+    .accordion-button{
+        background-color: #bddadf;
+        color:#05263a;
+    }
+
+
+    
+    .accordion-button:not(.collapsed)::after {
+        /* Ensure the arrow points up when the accordion is open */
+        transform: rotate(180deg) scale(1.2);
+    }
+    
+    
+
+
+hr{background-color:#002e77; border:2px solid #002e77;}
+
+.imagenDelCurso{
+    object-fit: contain;
+    overflow: hidden;
+    height: 100%;
+    width: 350px;
+    border-left-width: 40px;
+    border-right-width: 40px;
+}
+
+.btnComprarAhora{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#bddadf;
+    border: #bddadf solid 1px;
+}
+
+.btnComprarAhora:hover{
+    background-color:#d03bf1;
+    border-color: #d03bf1;
+    color: #fff;
+}
+
+
+#nameOfCourse{
+    color:#fff;
+}
+
+.imagenCreadora{
+    width: 350px;
+    border-radius: 1px 15px 1px 15px;
+}
+
+.accordion-body{
+    background-color: #bddadf;
+}
+
+#octavaseccion{
+    background-color: #bddadf;
+}
+
+#novenaseccion{
+    text-align: center;
+    background-color: #05263a;
+}
+
+#novenaseccion h3{
+    color: #fff;
+}
+
+.tarjetaPrecio{
+    box-shadow: 5px 5px 15px #000;
+    border: #bddadf solid 1px;
+    background:linear-gradient(135deg,#05263a,#bddadf,#fff);
+}
+
+.precioSinDescuento{
+    color:#d03bf1;
+    text-decoration: line-through;
+    font-size: 2rem;
+}
+
+.precioDescuento{
+    color:#077787;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+#decimaSeccion{
+    background-color: #bddadf;
+    text-align: center;
+}
+
+.footer{
+    background-color: #05263a;
+    color:#fff;
+}
+
+@keyframes scaleUpDown {
+    0%, 100% {
+        transform: scale(1); /* Original size */
+        box-shadow: 3px 8px 14px #05263a;
+        border:#d03bf1 solid 1px;
+    }
+    50% {
+        transform: scale(1.1); /* Scaled up by 10% */
+        box-shadow: 3px 8px 14px #bddadf;
+        border: #077787 solid 1px;
+    }
+}
+
+.btnPagarYa{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#077787;
+    box-shadow: 3px 8px 14px #05263a;
+    animation: scaleUpDown 3s infinite ease-in-out;
+}
+
+.btnPagarYa:hover{
+    background-color:#d03bf1;
+    border-color: #d03bf1;
+    color: #fff;
+}
+.unicoPago{
+color:#fff;
+padding: 2rem;
+}
+.imagenGarantia{
+    width: 50%;
+    margin: 2rem;
+}
+
+.sin-vinetas li {
+    list-style-type: none; /* Esto oculta las viñetas */
+  }
+  
+
+@media (max-width:768px) {
+    
+    .imagenDelCurso{
+        width: 200px; height: 200px; object-fit: cover;
+    }
+    .imagenCreadora{
+        width: 180px;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+}
