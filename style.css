@@ -207,7 +207,7 @@ padding: 2rem;
     list-style-type: none; /* Esto oculta las viñetas */
   }
 
-#videoDeVenta{width450px;}
+#videoDeVenta{width:450px;}
 
 @media (max-width:768px) {
     
