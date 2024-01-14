@@ -53,7 +53,6 @@ h3{
 
 #cuartaSeccion{
     background-color: #bddadf;
-    height: 110vh;
     }
 
     #cuartaSeccion p, h2, h3{
@@ -207,7 +206,8 @@ padding: 2rem;
 .sin-vinetas li {
     list-style-type: none; /* Esto oculta las viñetas */
   }
-  
+
+#videoDeVenta{width450px;}
 
 @media (max-width:768px) {
     
@@ -220,5 +220,8 @@ padding: 2rem;
 
     h2{
         font-size: 2rem;
+    }
+    #videoDeVenta{
+        width:100%;
     }
 }
