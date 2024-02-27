@@ -46,6 +46,48 @@ p{
     #primeraSeccion{
         background-color: #05263a;
         height: 100vh;
+        position: relative;
+        }
+
+        .fancy-button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            border: none;
+            background-color: #bddadf;
+            color: #05263a;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.3s;
+            z-index: 1;
+            text-decoration: none;
+        }
+
+        .fancy-button:hover {
+            background-color: #bddadf;
+            padding: 20px 40px;
+        }
+
+        .fancy-button::before {
+            content: "Únete a telegram";
+            position: absolute;
+            bottom: -100%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: #bddadf;
+            background-color: #05263a;
+            transition: all 0.3s;
+            padding: 10px 0;
+            font-weight: bold;
+            border: 1px solid #bddadf;
+            border-radius: 10px 1px 10px 1px;
+        }
+
+        .fancy-button:hover::before {
+            bottom: 0;
         }
     
         #primeraSeccion h1{
