@@ -1,319 +1,334 @@
-p{ 
-    font-size:16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-    
-    li{
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    font-size: 16px;
-    }
-    
-    a{
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 500;
-        font-style: normal;  
-    }
-    
-    h1{
-    
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-    }
-    
-    h2{
-        color: #bddadf;
-        font-size: 2.8rem;
-        text-align: center;
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-    
-    h3{
-        color: #fff;
-        font-size:1.5rem;
-        text-align:center;
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-    
-    #primeraSeccion{
-        background-color: #05263a;
-        height: 100vh;
-        position: relative;
-        }
+p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-        .fancy-button {
-            position: absolute;
-            top: 0;
-            right: 0;
-            border: none;
-            background-color: #bddadf;
-            color: #05263a;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            overflow: hidden;
-            transition: all 0.3s;
-            z-index: 1;
-            text-decoration: none;
-        }
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
 
-        .fancy-button:hover {
-            background-color: #bddadf;
-            padding: 20px 40px;
-        }
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
-        .fancy-button::before {
-            content: "Únete a telegram";
-            position: absolute;
-            bottom: -100%;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            color: #bddadf;
-            background-color: #05263a;
-            transition: all 0.3s;
-            padding: 10px 0;
-            font-weight: bold;
-            border: 1px solid #bddadf;
-            border-radius: 10px 1px 10px 1px;
-        }
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 
-        .fancy-button:hover::before {
-            bottom: 0;
-        }
-    
-        #primeraSeccion h1{
-            color:#bddadf;
-            }
-    
-        #segundaSeccion{
-            background-color: #bddadf;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            }
-    
-            #segundaSeccion h2{
-                color: #05263a;
-            }
-    
-            
-    
-    #primeraSeccion p{
-        color: #fff;
-    }
-    
-    #primeraSeccion ul, #primeraSeccion li{
-        color: #fff;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    #terceraseccion{
-        background-color: #05263a;
-        height: 50vh;
-        color:#fff;
-        text-align: center;
-    }
-    
-    #terceraseccion h3{
-        color:#fff;
-        text-align: center;
-    }
-    
-    #cuartaSeccion{
-        background-color: #bddadf;
-        height: 100%;
-        }
-    
-        #cuartaSeccion p, h2, h3{
-            color: #05263a;
-        }
-    
-        #quintaSeccion{
-            background-color: #05263a;
-            color:#fff;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-        }
-    
-        #quintaSeccion h2{
-            color:#fff;
-        }
-    
-        #sextaSeccion{
-            background-color: #bddadf;
-            text-align: center;
-            color: #002e77;
-            }
-    
-        .accordion-button{
-            background-color: #bddadf;
-            color:#05263a;
-        }
-    
-    
-        
-        .accordion-button:not(.collapsed)::after {
-            /* Ensure the arrow points up when the accordion is open */
-            transform: rotate(180deg) scale(1.2);
-        }
-        
-        
-    
-    
-    hr{background-color:#002e77; border:2px solid #002e77;}
-    
-    .imagenDelCurso{
-        object-fit: contain;
-        overflow: hidden;
-        height: 100%;
-        width: 350px;
-        border-left-width: 40px;
-        border-right-width: 40px;
-    }
-    
-    .btnComprarAhora{
-        text-transform: uppercase;
-        font-weight: bold;
-        color:#bddadf;
-        border: #bddadf solid 1px;
-    }
-    
-    .btnComprarAhora:hover{
-        background-color:#d03bf1;
-        border-color: #d03bf1;
-        color: #fff;
-    }
-    
-    
-    #nameOfCourse{
-        color:#fff;
-    }
-    
-    .imagenCreadora{
-        width: 350px;
-        border-radius: 1px 15px 1px 15px;
-    }
-    
-    .accordion-body{
-        background-color: #bddadf;
-    }
-    
-    #octavaseccion{
-        background-color: #bddadf;
-    }
-    
-    #novenaseccion{
-        text-align: center;
-        background-color: #05263a;
-    }
-    
-    #novenaseccion h3{
-        color: #fff;
-    }
-    
-    .tarjetaPrecio{
-        box-shadow: 5px 5px 15px #000;
-        border: #bddadf solid 1px;
-        background:linear-gradient(135deg,#05263a,#bddadf,#fff);
-    }
-    
-    .precioSinDescuento{
-        color:#d03bf1;
-        text-decoration: line-through;
-        font-size: 2rem;
-    }
-    
-    .precioDescuento{
-        color:#077787;
-        font-weight: bolder;
-        font-size: 3.5rem;
-    }
-    
-    #decimaSeccion{
-        background-color: #bddadf;
-        text-align: center;
-    }
-    
-    .footer{
-        background-color: #05263a;
-        color:#fff;
-    }
-    
-    @keyframes scaleUpDown {
-        0%, 100% {
-            transform: scale(1); /* Original size */
-            box-shadow: 3px 8px 14px #05263a;
-            border:#d03bf1 solid 1px;
-        }
-        50% {
-            transform: scale(1.1); /* Scaled up by 10% */
-            box-shadow: 3px 8px 14px #bddadf;
-            border: #077787 solid 1px;
-        }
-    }
-    
-    .btnPagarYa{
-        text-transform: uppercase;
-        font-weight: bold;
-        color:#077787;
-        box-shadow: 3px 8px 14px #05263a;
-        animation: scaleUpDown 3s infinite ease-in-out;
-    }
-    
-    .btnPagarYa:hover{
-        background-color:#d03bf1;
-        border-color: #d03bf1;
-        color: #fff;
-    }
-    .unicoPago{
-    color:#fff;
-    padding: 2rem;
-    }
-    .imagenGarantia{
-        width: 50%;
-        min-width: 200px;
-        margin: 2rem;
-    }
-    
-    .sin-vinetas li {
-        list-style-type: none; /* Esto oculta las viñetas */
-      }
-      #videoDeVenta{
-        width: 100%;
-    }
-    
-    .bonosRegaloPics{
-        width: 150px;
-    }
-    
-    @media (max-width:768px) {
-        
-        .imagenDelCurso{
-            width: 200px; height: 200px; object-fit: cover;
-        }
-        .imagenCreadora{
-            width: 180px;
-        }
-    
-        h2{
-            font-size: 2rem;
-        }
-        #videoDeVenta{
-            width: 100%;
-        }
-    
-        .bonosRegaloPics{
-            width: 80px;
-        }
-    
-    }
+h2 {
+  color: #bddadf;
+  font-size: 2.8rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#primeraSeccion {
+  background-color: #05263a;
+  height: 100vh;
+  position: relative;
+}
+
+.fancy-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: #bddadf;
+  color: #05263a;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.fancy-button:hover {
+  background-color: #bddadf;
+  padding: 20px 40px;
+}
+
+.fancy-button::before {
+  content: "Únete a telegram";
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #bddadf;
+  background-color: #05263a;
+  transition: all 0.3s;
+  padding: 10px 0;
+  font-weight: bold;
+  border: 1px solid #bddadf;
+  border-radius: 10px 1px 10px 1px;
+}
+
+.fancy-button:hover::before {
+  bottom: 0;
+}
+
+#primeraSeccion h1 {
+  color: #bddadf;
+}
+
+#segundaSeccion {
+  background-color: #bddadf;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#segundaSeccion h2 {
+  color: #05263a;
+}
+
+#primeraSeccion p {
+  color: #fff;
+}
+
+#primeraSeccion ul,
+#primeraSeccion li {
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#terceraseccion {
+  background-color: #05263a;
+  height: 50vh;
+  color: #fff;
+  text-align: center;
+}
+
+#terceraseccion h3 {
+  color: #fff;
+  text-align: center;
+}
+
+#cuartaSeccion {
+  background-color: #bddadf;
+  height: 100%;
+}
+
+#cuartaSeccion p,
+h2,
+h3 {
+  color: #05263a;
+}
+
+#quintaSeccion {
+  background-color: #05263a;
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#quintaSeccion h2 {
+  color: #fff;
+}
+
+#sextaSeccion {
+  background-color: #bddadf;
+  text-align: center;
+  color: #002e77;
+}
+
+.accordion-button {
+  background-color: #bddadf;
+  color: #05263a;
+}
+
+.accordion-button:not(.collapsed)::after {
+  /* Ensure the arrow points up when the accordion is open */
+  transform: rotate(180deg) scale(1.2);
+}
+
+hr {
+  background-color: #002e77;
+  border: 2px solid #002e77;
+}
+
+.imagenDelCurso {
+  object-fit: contain;
+  overflow: hidden;
+  height: 100%;
+  width: 350px;
+  border-left-width: 40px;
+  border-right-width: 40px;
+}
+
+.btnComprarAhora {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bddadf;
+  border: #bddadf solid 1px;
+}
+
+.btnComprarAhora:hover {
+  background-color: #d03bf1;
+  border-color: #d03bf1;
+  color: #fff;
+}
+
+#nameOfCourse {
+  color: #fff;
+}
+
+.imagenCreadora {
+  width: 350px;
+  border-radius: 1px 15px 1px 15px;
+}
+
+.accordion-body {
+  background-color: #bddadf;
+}
+
+#octavaseccion {
+  background-color: #bddadf;
+}
+
+#novenaseccion {
+  text-align: center;
+  background-color: #05263a;
+}
+
+#novenaseccion h3 {
+  color: #fff;
+}
+
+.tarjetaPrecio {
+  box-shadow: 5px 5px 15px #000;
+  border: #bddadf solid 1px;
+  background: linear-gradient(135deg, #05263a, #bddadf, #fff);
+  min-width: 22rem;
+}
+
+.precioSinDescuento {
+  color: #d03bf1;
+  text-decoration: line-through;
+  font-size: 2rem;
+}
+
+.precioDescuento {
+  color: #077787;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+#decimaSeccion {
+  background-color: #bddadf;
+  text-align: center;
+}
+
+.footer {
+  background-color: #05263a;
+  color: #fff;
+}
+
+.descripcion-paquete li {
+  list-style: none;
+}
+
+.descripcion-paquete {
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes scaleUpDown {
+  0%,
+  100% {
+    transform: scale(1); /* Original size */
+    box-shadow: 3px 8px 14px #05263a;
+    border: #d03bf1 solid 1px;
+  }
+  50% {
+    transform: scale(1.1); /* Scaled up by 10% */
+    box-shadow: 3px 8px 14px #bddadf;
+    border: #077787 solid 1px;
+  }
+}
+
+.btnPagarYa {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #077787;
+  box-shadow: 3px 8px 14px #05263a;
+  animation: scaleUpDown 3s infinite ease-in-out;
+}
+
+.btnPagarYa:hover {
+  background-color: #d03bf1;
+  border-color: #d03bf1;
+  color: #fff;
+}
+.unicoPago {
+  color: #fff;
+  padding: 2rem;
+}
+.imagenGarantia {
+  width: 50%;
+  min-width: 200px;
+  margin: 2rem;
+}
+
+.sin-vinetas li {
+  list-style-type: none; /* Esto oculta las viñetas */
+}
+#videoDeVenta {
+  width: 100%;
+}
+
+.bonosRegaloPics {
+  width: 150px;
+}
+
+.container-paquetes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .imagenDelCurso {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .imagenCreadora {
+    width: 180px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  #videoDeVenta {
+    width: 100%;
+  }
+
+  .bonosRegaloPics {
+    width: 80px;
+  }
+}
